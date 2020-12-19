@@ -1,5 +1,5 @@
 pipeline {
-    agent any # sames as node om scripted--top-level or stage-level
+    agent any
     options {
         skipStagesAfterUnstable()
     }
